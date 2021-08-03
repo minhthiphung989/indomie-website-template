@@ -1,0 +1,27 @@
+.about {
+    background-image: url("/Indomie/img/bg-about-1.jpg");
+    background-color: $color-bg;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: right center;
+    .about-container {
+        padding-top: 200px;
+        .container {
+            .row {
+                .col-4 {
+                    width: 50%;
+                    padding: 50px;
+                    .h1-style {
+                        font-family: indie_flower;
+                    }
+                    img {
+                        max-width: 100%;
+                    }
+                }
+                .col-img {
+                    width: 45%;
+                }
+            }
+        }
+    }
+}

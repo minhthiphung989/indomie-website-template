@@ -1,0 +1,122 @@
+#loadmore {
+    margin: 5px auto;
+    padding: 8px 0;
+    width: 20%;
+    background: #c12b2b;
+    text-align: center;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+        background: #333;
+    }
+}
+
+.infographic {
+    padding-top: 80px;
+}
+
+.infographic img {
+    max-width: 100%;
+}
+
+.infographic li {
+    position: relative;
+    float: left;
+    width: 25%;
+    list-style: none;
+}
+
+.info-overlay {
+    position: absolute;
+    z-index: 2;
+    top: 12%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    margin-top: -40px;
+    text-align: center;
+    a {
+        img {
+            margin-top: 100px;
+        }
+    }
+}
+
+.info-overlay li {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.info-overlay li:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+li:hover .info-overlay {
+    opacity: 1;
+}
+
+.info-overlay img {
+    display: inline-block;
+}
+
+// .p {
+//     margin: 5px auto;
+//     padding: 8px 0;
+//     width: 50%;
+//     background: #333;
+//     text-align: center;
+//     color: #fff;
+//     display: block;
+//     text-decoration: none;
+//     #top a {
+//         color: #c12b2b;
+//         position: fixed;
+//         bottom: 5px;
+//         right: 15px;
+//         text-decoration: none;
+//         display: none;
+//     }
+// }
+.recipes-ingredient-sec {
+    padding-top: 200px;
+    .recipes-ingredient {
+        .recipes-ingredient-container {
+            h1 {
+                font-size: 64px;
+                text-shadow: 4px 8px 6px rgb(0 0 0 / 30%);
+                margin-bottom: 50px;
+                color: #333;
+                font-weight: bold;
+                font-family: indie_flower;
+                text-align: center;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}
+
+.container {
+    .row {
+        .p {
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+}
+
+.recipes-make-sec {
+    background: #A9D894 url("/Indomie/img/bg-recipes-2.jpg") no-repeat top right;
+    padding: 150px 0 100px 0;
+}
