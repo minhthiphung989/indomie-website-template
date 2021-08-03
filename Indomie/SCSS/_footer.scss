@@ -1,0 +1,38 @@
+.footer {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #E4F3F7 url("/Indomie/img/bg-footer.jpg") repeat-y top center;
+    background-size: 100%;
+    padding: 120px 0 60px 0;
+    color: #33425B;
+    ul {
+        padding: 0;
+        li {
+            padding: 0;
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: #33425B;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.footer .col-3 li {
+    text-align: left;
+}
+
+.footer-socket {
+    margin-top: 60px;
+}
+
+.footer-socket img {
+    max-width: 200px;
+    padding-right: 40px;
+}
+
+.footer a:hover {
+    color: #343434;
+}

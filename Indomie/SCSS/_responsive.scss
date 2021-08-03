@@ -1,0 +1,17 @@
+@media only screen and (max-width: 999px) {
+    img {
+        max-width: 100%;
+    }
+    .btn-solid-grey {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+    .header {
+        .container {
+            display: none;
+        }
+    }
+    .toggle-menu {
+        display: block;
+    }
+}

@@ -1,0 +1,165 @@
+// product process
+@mixin h1-attri() {
+    font-size: 64px;
+    text-shadow: 4px 8px 6px rgb(0 0 0 / 30%);
+    margin-bottom: 50px;
+    color: white;
+    font-family: indie_flower;
+    text-align: center;
+}
+
+@mixin img-size {
+    img {
+        max-width: 40%;
+    }
+}
+
+.product-process-sec {
+    .product-process-container {
+        text-align: center;
+        @include img-size;
+        .product-process-1 {
+            padding-top: 160px;
+            background-color: $color-bg;
+            .h1-style {
+                @include h1-attri;
+            }
+        }
+        .product-process-2 {
+            padding-bottom: 50px;
+            background: #fff url("/Indomie/img/bg-production-1.jpg") no-repeat top center;
+            background-size: 100%;
+        }
+    }
+}
+
+.product-sec {
+    background-image: url("/Indomie/img/bg-product-1.jpg");
+    background-size: 100% 100%;
+    .product-category {
+        text-align: right;
+        .select-drop {
+            position: relative;
+            display: inline-block;
+            background: #D53939;
+            border-radius: 30px;
+            text-align: left;
+            list-style-type: none;
+            list-style: none;
+            text-decoration: none;
+            height: 50px;
+            &:hover .select-dropdown-menu {
+                display: block;
+            }
+        }
+        #select-a {
+            padding: 15px 50px 30px 20px;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: left;
+            background: url("/Indomie/img/arrow-down-white-3.png") no-repeat right;
+            width: 400px;
+        }
+        .select-dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: $color-bg;
+            min-width: 200px;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 5px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            list-style-type: none;
+            list-style: none;
+            text-decoration: none;
+            li>a {
+                color: #fff;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                margin-top: 10px;
+                &:hover {
+                    border-bottom: solid 4px #fff;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+// .select-drop .outer {
+//     margin: 0 auto;
+//     width: 100%;
+// }
+#big {
+    height: 60%;
+}
+
+#big .item {
+    text-align: left;
+}
+
+#thumbs {
+    width: 90%;
+    margin: 5px 100px 50px 200px;
+    .item {
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        max-width: 60%;
+    }
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+    background-color: #D6D6D6;
+}
+
+#big.owl-theme {
+    position: relative;
+}
+
+#big.owl-theme .owl-next,
+#big.owl-theme .owl-prev {
+    background: #333;
+    width: 22px;
+    line-height: 40px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    display: none;
+}
+
+#big.owl-theme .owl-prev {
+    left: 10px;
+}
+
+#big.owl-theme .owl-next {
+    right: 10px;
+}
+
+#thumbs.owl-theme .owl-next,
+#thumbs.owl-theme .owl-prev {
+    background: #333;
+}
+
+.item {
+    h1 {
+        text-align: center;
+    }
+    p {
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
