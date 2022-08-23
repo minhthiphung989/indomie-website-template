@@ -3285,6 +3285,9 @@ body img {
   .home-product-container .col-4 a h2 {
     text-align: center;
   }
+  .home-moment-sec {
+    display: none;
+  }
 
   .home-recipes {
     height: 70%;
